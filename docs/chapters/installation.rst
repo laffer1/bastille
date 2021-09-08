@@ -20,7 +20,7 @@ PKG
   pkg install bastille
 
 
-To install from source (don't worry, no compiling):
+To install from source on FreeBSD (don't worry, no compiling):
 
 ports
 -----
@@ -29,6 +29,23 @@ ports
 
   make -C /usr/ports/sysutils/bastille install clean
 
+To install from the MidnightBSD package repository:
+
+mport
+---
+
+.. code-block:: shell
+
+  mport install bastille
+
+To install from source on MidnightBSD:
+
+mports
+---
+
+.. code-block:: shell
+
+  make -C /usr/mports/sysutils/bastille install clean
 
 GIT
 ---
